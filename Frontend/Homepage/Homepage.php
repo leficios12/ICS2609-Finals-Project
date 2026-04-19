@@ -41,23 +41,28 @@
 
     <div class="Upper-Section">
         <img src="../images/HomepageCover.jpg" class="img-fluid" id="Upper-Background">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6">
-                    <form class="d-flex">
-                        <div class="input-group">
-                            <input class="form-control form-control-lg" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-primary px-4" type="submit">
+    </div>
+
+        <div class="search-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form class="d-flex">
+                            <div class="input-group shadow">
+                                <input class="form-control form-control-lg p-3 pl-5" type="search" placeholder="Enter keyword to search collection..." aria-label="Search">
+                                <button class="btn btn-success px-4" type="submit">
                                     <i class="bi bi-search"></i>
                                 </button>
-                        </div>
-                    </form>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+        
     
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
