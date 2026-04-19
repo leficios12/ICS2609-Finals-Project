@@ -1,14 +1,21 @@
 # ICS2609-Finals-Project
-Final project for our course ICS2609
-Frontend:
-  html
-  bootstrap.css
-  saas bootstrap
+Final project for our course ICS2609<br>
+<ul> Frontend:
+    <li>html</li>
+    <li>css bootstrap</li>
+</ul>
 
-Backend:
-  php
+<br>
+<ul>Backend:
+    <li>php</li>
+</ul>
 
-  contributors: 
-   Euschii - Marquinn Budomo
-   Leficios12 - Shinya Koike
-   DigiCode4 - Leocadio Belaro
+<ul>Contributors
+    <li>Euschii - Marquinn Budomo </li>
+    <li>Leficios12 - Shinya Koike </li>
+    <li>DigiCode4 - Leocadio Belaro </li>
+</ul>
+
+   
+   
+   
