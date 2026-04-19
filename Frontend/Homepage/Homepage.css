@@ -1,0 +1,35 @@
+.Upper-Section {
+    width: 100%;
+    margin-top: 56px; 
+}
+
+#Upper-Background {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+}
+
+.search-section {
+    margin-top: -28px; 
+    position: relative;
+    z-index: 10;      
+}
+
+.input-group {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group .form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.input-group .btn-light {
+    border: none;
+    background: white;
+    color: #555;
+}
