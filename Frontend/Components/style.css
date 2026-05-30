@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  
 }
 
 main {
@@ -138,3 +139,4 @@ main {
 .footer-bottom {
   font-size: 0.875rem;
 }
+

@@ -1,72 +1,62 @@
 <?php
 include_once '../Components/Header.php';
 ?>  
-
-<div class="container"></div>
-    <form action="MemberLogin.php" method="post" enctype="multipart/form-data">
-        <div class="container bg-light mt-5 mb-5 p-5 rounded">   
-            <div class="row">   
-                <div class="col">
-                    <div class=" text-center ">
-                        <p class="display-2">Registration Form</p>    
+<link rel="stylesheet" href="Registration.css">
+    <div class="row">
+        <div class="col-md-6 left-col d-none d-md-block">
+        </div>
+        <div class="col mt-5 me-5 p-5 text-center">
+            <div class="row mt-2">
+                <div class="display-4"><b>Account Creation</b></div>
+            </div>
+            <form action="" enctype="multipart/form-data">
+                <div class="row justify-content-center align-items-center mt-4 upload-row">
+                    <div class="col-auto">
+                        <input type="file" name="upload_img" class="upload-input" onchange="previewImage(event);">
                     </div>
-                    <div class="row">
-                    <div class="col  text-center">
-                        <div class="row">
-                            <div class="col"> <img src="" id="preview" alt="preview" class="img-thumbnail  text-center d-block mx-auto " style="width: 150px; height: 150px;  "></div>
-                            <div class="col">  <input type="file" name="upload_img" class="form-control mt-3" onchange="previewImage(event);">      
-                        </div>
-                        </div>
+                    <div class="col-auto text-center">
+                        <img src="" id="preview" alt="preview" class="img-thumbnail preview-image">
                     </div>
-                </div> 
-                    
-                        <label class="form-label" for="user_name">Username</label>
-                    <div class="row">
-                        <div class="col form-group">
-                        <input required type="text" name="user_name" placeholder="Username" class="form-control">
-                    </div>
-                    </div>
-
-                     <label class="form-label" for="address">Address</label>
-                    <div class="row">
-                        <div class="col form-group">
-                        <input required type="text" name="address" placeholder="Address" class="form-control">
-                    </div>
-                    </div>
-
-                     <label class="form-label" for="email">Email</label>
-                    <div class="row">
-                        <div class="col">
-                            <input type="email" name="email"  class="form-control" value="" placeholder="youremail@gmail.com">
-                        </div>
-                    </div>
-                    <label class="form-label" for="contact_info">Phone number</label>
-                    <div class="row">
-                        <div class="col form-group">
-                            <input type="number" name="contact_info"  value="" placeholder="09XXXXXXXXX" class="form-control">
-                        </div>
-                    </div>
-                    
-
-
-                    <label  class="form-label" for="password">Password</label>
-                    <div class="row">
-                        <div class="col form-group">
-                        <input required type="password" name="password" placeholder="Password" class="form-control">
-                    </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col text-center">
-                            <input type="submit" name="submit" id="" class="btn btn-primary mt-3 w-25" value="Save details">
-                        </div>
-                    </div>
-                    <a class="btn btn-primary mt-5 mx-3" href="../Log/LogIn.php" role="button">Login</a>    
-
                 </div>
+                
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <input type="text" required class="form-control mx-auto" name="" placeholder="Enter Username">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <input type="text" required class="form-control mx-auto" name="" placeholder="Enter Email">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <input type="text" required class="form-control mx-auto" name="" placeholder="Enter Address">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <input type="text" required class="form-control mx-auto" name="" placeholder="Enter Contact Number">
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 col-md-10 col-lg-8">
+                        <input type="text" required class="form-control mx-auto" name="" placeholder="Enter Password">
+                    </div>
+                </div>
+                
+                <div class="row justify-content-center mt-4">
+                    <input type="submit" value="Create Account" class="btn w-25 btn-primary">
+                </div>       
+            </form>
+                            
+            <div class="row justify-content-center mt-4">
+                <label for="" class="form-label">Already have an account?</label>
+                <input type="button" name="" value="Login" class="btn w-25 btn-primary" id="loginBtn">
             </div>
         </div>
-    </form>
+    </div>
+
 </body>
 <?php
 include_once '../Components/Footer.php';
