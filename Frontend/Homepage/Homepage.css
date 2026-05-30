@@ -1,3 +1,8 @@
+body {
+    background-color: #FFFDF4;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
 .Upper-Section {
     width: 100%;
     margin-top: 56px; 
@@ -5,7 +10,8 @@
 
 #Upper-Background {
     width: 100%;
-    height: 500px;
+    height: 352px;
+    max-height: 352px;
     object-fit: cover;
     object-position: top;
     display: block;
@@ -33,3 +39,61 @@
     background: white;
     color: #555;
 }
+
+#main-header {
+    font-weight: bold;
+    color: #2E615C;
+}
+
+#topicBtn {
+    background-color: #D9D9D9;
+    max-width: 160px;
+    width: 160px;
+    
+}
+#topicBtn:hover {
+    background-color: #555;
+    color: white;
+}
+
+#popularBooksContainer {
+    background-color: #1A1F2E;
+}
+
+#card-outer {
+    width: 160px;
+    background-color: #1a1d2e;
+}
+
+#quote {
+    color: white;
+    font-size: 0.72rem;
+}
+
+#card-inner {
+    background-color: #d9d9d9; /*to be changed to image of the book*/
+    aspect-ratio: 3/4; 
+    width: 100%;
+}
+
+#card-text {
+    font-size: 0.72rem; 
+    color: #a0a4b8;
+}
+
+#createAccountBtn {
+    background-color: #1A1F2E;
+    color: white;
+    width: 75%;
+}
+
+#createAccountBtn:hover {
+    background-color: #2a59e7;
+    color: white;
+}
+
+#searchContainer {
+    background-color: #1A1F2E;
+    margin-top: 80px;
+}
+
