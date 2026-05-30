@@ -40,67 +40,65 @@
         <img src="" class="img-fluid" id="Upper-Background">
     </div>
 
-
-
-  <div>
-        <!----------- Footer ------------>
-        <footer class="py-5 mt-5 footer-main">
-        <div class="container">
-            <div class="row g-4">
-
-            <!--------- Logo & Brand ------------------------>
-            <div class="col-md-2">
-                <img src="../Components/images/footer-logo.png" alt="ShelfCore Logo" class="rounded mb-3 footer-logo">
-                <div class="fw-semibold text-light footer-brand-name">ShelfCore</div>
-                <small class="text-secondary footer-brand-tag">Library Management Online</small>
-            </div>
-
-            <!------------- Navigation Links -------------->
-            <div class="col-md-2">
-                <p class="fw-bold mb-3 footer-heading">Navigation</p>
-                <ul class="list-unstyled">
-                <li class="mb-2"><a class="footer-nav-link" href="../InformationPage/informationPage.php"><i class="fas fa-info-circle me-2 text-primary"></i>Information</a></li>
-                <li class="mb-2"><a class="footer-nav-link" href="#"><i class="fas fa-briefcase me-2 text-primary"></i>Services</a></li>
-                <li class="mb-2"><a class="footer-nav-link" href="#"><i class="fas fa-user-circle me-2 text-primary"></i>Librarian</a></li>
-                <li class="mb-2"><a class="footer-nav-link" href="#"><i class="fas fa-th-large me-2 text-primary"></i>Member Area</a></li>
-                </ul>
-            </div>
-
-            <!----------- About Us----------->
-            <div class="col-md-5">
-                <p class="fw-bold mb-3 footer-heading">About Us</p>
-                <p class="text-secondary footer-about-text">
-                This free online library management system was built by students of the University of Santo Tomas to implement library management efficiently. Readers can view available books and make an appointment to borrow online.
-                </p>
-                <p class="text-secondary footer-about-text">
-                Learn more at <a href="#" class="text-info">ShelfCore Website</a>
-                </p>
-            </div>
-
-            <!-------------- Support Buttons ----------->
-            <div class="col-md-3">
-                <p class="fw-bold mb-3 footer-heading">Support</p>
-                <div class="d-grid gap-2">
-                <a href="#" target="_blank" class="btn btn-outline-secondary btn-sm">
-                    <i class="fab fa-github me-2"></i>Find out more
-                </a>
-                <a href="#" target="_blank" class="btn btn-outline-success btn-sm">
-                    <i class="fas fa-heart me-2"></i>Keep ShelfCore Alive
-                </a>
+    <!--Search Box Part -->
+        <div class="search-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <form class="d-flex">
+                            <div class="input-group shadow">
+                                <input class="form-control form-control-lg p-3 pl-5" type="search" placeholder="Enter keyword to search collection..." aria-label="Search">
+                                <button class="btn btn-success px-4" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
+        </div>
 
+        <div class="mt-5">
+    <footer class="py-4 bg-dark text-light">
+        <div class="container">
+            <div class="row py-4">
+                <div class="col-md-2 ms-5 text-center">
+                    <img src="footer-logo.png" alt="" class="w-100 rounded">
+                    
+                </div>
+                <div class="col-md-2 ms-5">
+                    <ul class="list-reset">
+                        <li><a class="text-light" href="#">Information</a></li>
+                        <li><a class="text-light" href="#">Services</a></li>
+                        <li><a class="text-light" href="#">Librarian</a></li>
+                        <li><a class="text-light" href="#">Member Area</a></li>
+                    </ul>
+                </div>
+                <div class="col pt-8 md:pt-0">
+                    <h4 class="mb-4">About Us</h4>
+                    <p>
+                        This free online library management system was built by students of University of Santo Thomas in order to implement a library management effeciently. On this page, readers can view the books available in the library and make an appointment to borrow online. 
+                        <br>
+                        <br>
+                        View More:
+                        <a href="">LINK NG WEBSITE</a>
+                        <!--to be changed to the actual website of the project when it is done-->
+                    </p>
+                </div>
+                <div class="input-group-append text-end">
+                    <a target="_blank" title="Contribute" class="btn btn-outline-light mb-2" href="#"><i class="fab fa-github mr-2"></i>Find out more</a>
+                    <br>
+                    <br>
+                    <a target="_blank" title="Support Us" class="btn btn-outline-success mb-2" href="#"><i class="fas fa-heart mr-2"></i>Keep ShelfCore Alive</a>
+                </div>
             </div>
-
-            <hr class="border-secondary mt-4">
-
-            <div class="d-flex justify-content-between align-items-center py-2 footer-bottom">
-            <small class="text-secondary">© 2026 — ShelfCore · Library Management Online</small>
-            <small class="text-secondary">University of Santo Tomas</small>
+            <hr>
+            <div class="flex font-thin text-sm">
+                <p class="flex-1">© 2026 — ShelfCore -ShelfCore Library Management Online</p>
             </div>
         </div>
-        </footer>   
-    </div>
+    </footer>
+</div>
 
         
     
