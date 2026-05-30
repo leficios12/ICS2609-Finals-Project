@@ -7,7 +7,7 @@ include_once '../Components/Header.php';
 
  
 <div class="Upper-Section">
-    <img src="../images/HomepageCover.jpg" class="img-fluid" id="Upper-Background" alt="Library Cover">
+    <img src="./images/HomepageCover.jpg" class="img-fluid" id="Upper-Background" alt="Library Cover">
 </div>
 
 <div class="container text-center">
@@ -191,12 +191,12 @@ include_once '../Components/Header.php';
             The system enables users to easily search catalogs, discover featured books, check availability, and access important library information from a single platform. </p>
         </div>
         <div class="col">
-            <img src="../images/colImg.jpg" alt="" id="colImgages">
+            <img src="./images/colImg.jpg" alt="" id="colImgages">
         </div>
     </div>
     <div class="row mt-5">
         <div class="col p-3 m-5">
-            <img src="../images/colImg2.jpg" alt="" id="colImgages">
+            <img src="./images/colImg2.jpg" alt="" id="colImgages">
         </div>
         <div class="col p-3 m-5">
             <p class="lead">Designed with usability and efficiency in mind, ShelfCore simplifies everyday library transactions while reducing the time and effort needed to find and manage resources. Whether users are browsing collections, reserving materials, or keeping track of their library activities, ShelfCore provides a convenient and reliable solution that enhances the overall library experience for both members and administrators.</p>
