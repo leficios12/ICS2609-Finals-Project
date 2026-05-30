@@ -42,8 +42,13 @@ body {
 
 #regisBtn {
     background-color: #1A1F2E;
+    
 }
 
+#regisBtn:hover {
+     background-color: #2a59e7;
+    color: white;
+}
 
 
 

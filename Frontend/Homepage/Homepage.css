@@ -97,3 +97,18 @@ body {
     margin-top: 80px;
 }
 
+/* Fixed dimensions for column images */
+#colImgages {
+    width: 677px;
+    height: 346px;
+}
+
+#viewAllBtn {
+    background-color: #1A1F2E;
+}
+
+#viewAllBtn:hover {
+        background-color: #2a59e7;
+    color: white;
+}
+

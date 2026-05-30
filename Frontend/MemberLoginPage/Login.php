@@ -31,7 +31,7 @@ include_once '../Components/Header.php';
                             
             <div class="row justify-content-center mt-5">
                 <label for="" class="form-label">Don't have an account yet?</label>
-                <input type="button" name="" value="Create account" class="btn w-25 btn-primary" id="regisBtn">
+                <input type="button" name="" value="Create account" class="btn w-25 text-white" id="regisBtn">
             </div>
         </div>
     </div>
