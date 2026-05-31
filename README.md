@@ -6,7 +6,6 @@ ShelfCore is a web-based Library Management System developed as the final projec
 - Book catalog management
 - Library record organization
 - User-friendly interface
-- Web-based access
 - Efficient library data handling
 
 ## Tech Stack
