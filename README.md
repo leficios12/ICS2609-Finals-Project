@@ -1,30 +1,33 @@
-# ICS2609-Finals-Project
-Final project for our course ICS2609<br>
-<ul> 
-Frontend:
-    <li>html</li>
-    <li>css bootstrap</li>
-</ul>
+# ShelfCore
 
-<br>
-<ul>
-Backend:
-    <li>php</li>
-</ul>
+ShelfCore is a web-based Library Management System developed as the final project for **ICS2609**. The system is designed to help libraries efficiently manage books, track records, and streamline daily library operations through a simple and user-friendly interface.
 
-<ul>
-Contributors
-    <li>Euschii - Marquinn Budomo </li>
-    <li>Leficios12 - Shinya Koike </li>
-    <li>DigiCode4 - Leocadio Belaro </li>
-</ul>
+## Features
+- Book catalog management
+- Library record organization
+- User-friendly interface
+- Web-based access
+- Efficient library data handling
 
-<ul>
-    Version Control System:
-    <li>Git / Github</li>
-</ul>
+## Tech Stack
 
+### Frontend
+- HTML
+- CSS
+- Bootstrap
 
+### Backend
+- PHP
 
-   
-   
+### Version Control
+- Git
+- GitHub
+
+## Contributors
+- **Euschii** — Marquinn Budomo
+- **Leficios12** — Shinya Koike
+- **DigiCode4** — Leocadio Belaro
+
+## Course Information
+**ICS2609 Final Project**
+
