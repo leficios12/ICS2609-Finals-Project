@@ -18,6 +18,7 @@ ShelfCore is a web-based Library Management System developed as the final projec
 
 ### Backend
 - PHP
+- MySQL
 
 ### Version Control
 - Git
