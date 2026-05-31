@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="py-5 mt-5 footer-main">
+<footer class="py-5  footer-main">
     <div class="container">
         <div class="row g-4">
             <!-- Logo & Brand -->
