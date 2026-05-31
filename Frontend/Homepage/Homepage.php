@@ -46,31 +46,31 @@ include_once '../Components/Header.php';
                 <div class="row">
                     <div class="col">
                         <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                            <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
+                        <img src="../Components/images/thealchemist.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg"> 
                             <div class="px-1">
-                                <h6 class="text-white fw-bold mb-1">Title</h6>
-                                <p class="mb-1" id="card-text">Short description</p>
-                                <span id="card-text">Genre</span>
+                                <h6 class="text-white fw-bold mb-1">The Alchemist</h6>
+                                <p class="mb-1" id="card-text">A young shepherd travels in search of treasure and self-discovery.</p>
+                                <span id="card-text">Adventure</span>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                            <div class="rounded-2 mb-3" id="card-inner"></div>
+                            <img src="../Components/images/1984.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
                             <div class="px-1">
-                                <h6 class="text-white fw-bold mb-1">Title</h6>
-                                <p class="mb-1" id="card-text">Short description</p>
-                                <span id="card-text">Genre</span>
+                                <h6 class="text-white fw-bold mb-1">1984</h6>
+                                <p class="mb-1" id="card-text">A dystopian novel depicting life under a totalitarian government.</p>
+                                <span id="card-text">Dystopian Fiction</span>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                            <div class="rounded-2 mb-3" id="card-inner"></div>
+                            <img src="../Components/images/percyjackson.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
                             <div class="px-1">
-                                <h6 class="text-white fw-bold mb-1">Title</h6>
-                                <p class="mb-1" id="card-text">Short description</p>
-                                <span id="card-text">Genre</span>
+                                <h6 class="text-white fw-bold mb-1">Percy Jackson & the Lightning Thief</h6>
+                                <p class="mb-1" id="card-text">A young boy discovers he is a demigod and embarks on a quest to prevent a war between the gods.</p>
+                                <span id="card-text">Fantasy</span>
                             </div>
                         </div>
                     </div>
@@ -122,50 +122,52 @@ include_once '../Components/Header.php';
     <div class="row p-5" id="Cards">
         <div class="col">
             <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
+                <img src="../Components/images/thesilentpatient.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
+                    <h6 class="text-white fw-bold mb-1">The Silent Patient</h6>
+                    <p class="mb-1" id="card-text">A psychological thriller about a woman who stops speaking after a shocking crime.</p>
+                    <span id="card-text">HOROR</span>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
+                 <img src="../Components/images/atomichabits.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
+                    <h6 class="text-white fw-bold mb-1">Atomic Habits</h6>
+                    <p class="mb-1" id="card-text">Practical strategies for building good habits and breaking bad ones.</p>
+                    <span id="card-text">Self-Help</span>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
+                <img src="../Components/images/cardImg.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg"> 
+                    <h6 class="text-white fw-bold mb-1">Beyond The Ocean Door</h6>
+                    <p class="mb-1" id="card-text">Beyond the Ocean Door is a coming-of-age fantasy adventure novel by Amisha Sathi. </p>
+                    <span id="card-text">Fiction</span>
             </div>
         </div>
         <div class="col">
             <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
+                <img src="../Components/images/thehobbit.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg"> 
+                    <h6 class="text-white fw-bold mb-1">The Hobbit</h6>
+                    <p class="mb-1" id="card-text">A fantasy adventure following Bilbo Baggins on an unexpected journey.</p>
+                    <span id="card-text">Fiction</span>
             </div>
         </div>
         <div class="col">
             <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
+                <img src="../Components/images/prideandprejudice.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
+                    <h6 class="text-white fw-bold mb-1">Pride and Prejudice</h6>
+                    <p class="mb-1" id="card-text">A romantic novel set in Georgian England, exploring themes of social class and marriage.</p>
+                    <span id="card-text">Fiction</span>
             </div>
         </div>
         <div class="col">
             <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card border-0 rounded-3 p-2 pb-3" id="card-outer">
-                <div class="rounded-2 mb-3" id="card-inner"></div> <!---replace img-->
-                    <h6 class="text-white fw-bold mb-1">Title</h6>
-                    <p class="mb-1" id="card-text">Short description</p>
-                    <span id="card-text">Genre</span>
+                <img src="../Components/images/themartian.jpg" class="card-img-top rounded-2 mb-3" alt="" id="cardImg">
+                    <h6 class="text-white fw-bold mb-1">The Martian</h6>
+                    <p class="mb-1" id="card-text">A science fiction novel about an astronaut stranded on Mars.</p>
+                    <span id="card-text">Fiction</span>
             </div>
         </div>
     </div>
@@ -204,7 +206,7 @@ include_once '../Components/Header.php';
     </div>
 
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <?php
 include_once '../Components/Footer.php';
 ?>
