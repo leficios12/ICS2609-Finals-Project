@@ -82,7 +82,7 @@ include_once '../Components/Header.php';
     if (!isOpen) item.classList.add('open', 'active');
   }
 </script>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 <?php
 include_once '../Components/Footer.php';
 ?>
