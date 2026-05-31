@@ -1,0 +1,91 @@
+.table-card {
+  background: var(--card-bg);
+  border: 1.5px solid var(--card-border);
+  border-radius: 16px;
+  padding: 1.75rem 1.5rem 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition:
+    box-shadow 0.25s,
+    transform 0.25s;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-card:hover {
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.12);
+  transform: translateY(-3px);
+}
+
+.table-card-icon {
+  width: 42px;
+  height: 42px;
+  background: #7e2b2b22;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.table-card-title {
+  font-family: "Playfair Display", serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  letter-spacing: 0.02em;
+  margin-bottom: 0.4rem;
+}
+
+.table-card-desc {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  flex: 1;
+  margin-bottom: 1.25rem;
+  line-height: 1.5;
+}
+
+.btn-view {
+  background: var(--btn-bg);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.55rem 1.25rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
+  align-self: flex-start;
+}
+
+.btn-view:hover {
+  background: var(--btn-hover);
+  box-shadow: 0 4px 14px rgba(126, 43, 43, 0.35);
+}
+
+:root {
+  --bg: #e8e4de;
+  --card-bg: #f2ede8;
+  --card-border: #ccc7c0;
+  --btn-bg: #7e2b2b;
+  --btn-hover: #5e1f1f;
+  --text-dark: #1a1a1a;
+  --text-muted: #7a7570;
+}
+
+.divider {
+  border-color: var(--card-border);
+  margin: 2rem 0;
+}
+
+.card-section-wrapper {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
