@@ -34,6 +34,9 @@ ShelfCore is a web-based Library Management System developed as the final projec
 - **Leficios12** — Shinya Koike
 - **DigiCode4** — Leocadio Belaro
 
+
+## Requirements
+
 Before running the project, make sure the following are installed on your machine:
 
 - PHP 7.4 or later
