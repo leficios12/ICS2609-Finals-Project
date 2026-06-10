@@ -3,6 +3,7 @@
 ShelfCore is a web-based Library Management System developed as the final project for **ICS2609**. The system is designed to help libraries efficiently manage books, track records, and streamline daily library operations through a simple and user-friendly interface.
 
 ####
+<img width="1902" height="908" alt="image" src="https://github.com/user-attachments/assets/d2936e9d-e0df-41a3-b5cd-11b27aaae708" />
 <img width="1538" height="881" alt="image" src="https://github.com/user-attachments/assets/e5d54510-0bcd-4eae-a042-405f6b568ce9" />
 <img width="1271" height="890" alt="image" src="https://github.com/user-attachments/assets/a5f3769d-3e73-4330-bae4-a792b039c0fd" />
 
