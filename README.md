@@ -34,34 +34,37 @@ ShelfCore is a web-based Library Management System developed as the final projec
 - **Leficios12** — Shinya Koike
 - **DigiCode4** — Leocadio Belaro
 
-##Installation
-## Requirements
+Before running the project, make sure the following are installed on your machine:
 
-- PHP 7.4+ (or compatible with your XAMPP stack)
+- PHP 7.4 or later
 - MySQL / MariaDB
-- Apache (XAMPP, WAMP, or similar)
+- XAMPP (or any local server environment)
 
 ---
 
-## Installation
+## Setup Guide
 
-1. Clone or download this repository.
+### 1. Download the Project
 
-2. Place the project folder inside your web server document root:
+Clone the repository or download the ZIP file and extract it into your web server's root directory.
+
+Example for XAMPP:
 
 ```text
 C:/xampp/htdocs/
 ```
 
-3. Create a MySQL database named:
+### 2. Create the Database
+
+Open phpMyAdmin and create a new database named:
 
 ```sql
 db_librarysystem
 ```
 
-4. Import the provided SQL file (if available) into the database.
+### 3. Configure the Database Connection
 
-5. Verify the database connection settings in your configuration file:
+Locate the database configuration file and ensure the connection details match your local setup:
 
 ```php
 $servername = "localhost";
@@ -70,38 +73,42 @@ $password = "";
 $database = "db_librarysystem";
 ```
 
----
+### 4. Configure Email Settings (PHPMailer)
 
-## Run
+If the system uses email features such as account verification, password recovery, or notifications, configure your email credentials in the PHPMailer configuration file.
 
-1. Start **Apache** and **MySQL** from XAMPP.
-2. Open your browser and navigate to:
+Update the required SMTP settings, including:
+
+```php
+$mail->Host = 'smtp.gmail.com';
+$mail->Username = 'your-email@gmail.com';
+$mail->Password = 'your-app-password';
+$mail->Port = 587;
+```
+
+> **Note:** For Gmail accounts, it is recommended to use an App Password instead of your regular account password. Ensure that the email credentials are valid before testing email-related features.
+
+### 5. Import Database Tables
+
+Import the provided SQL file into the `db_librarysystem` database to create the required tables and initial data.
+
+## Launching the Application
+
+1. Start **Apache** and **MySQL** through the XAMPP Control Panel.
+2. Open your preferred browser.
+3. Access the application using:
 
 ```text
-http://localhost/your-project-folder/
+http://localhost/[project-folder-name]/
 ```
 
 ---
 
-## Database Configuration
+## Notes
 
-Example database connection:
-
-```php
-<?php
-
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "db_librarysystem";
-
-$conn = mysqli_connect($servername, $username, $password, $database);
-
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
-}
-?>
-```
+- The default MySQL username in XAMPP is `root`.
+- If your MySQL server uses a password, update the connection settings accordingly.
+- Ensure that Apache and MySQL services are running before accessing the system.
 
 ## Course Information
 **ICS2609 Final Project**
