@@ -11,7 +11,7 @@ function send_verification($fullname, $email, $otp){
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'youreemail.com'; // Your Gmail
+        $mail->Username   = 'your-email@gmail.com'; // Your Gmail
         $mail->Password   = 'google app password'; // Your App Password
         $mail->SMTPSecure = 'tls';
         $mail->Port       = 587;
